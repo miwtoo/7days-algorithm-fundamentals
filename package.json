@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "day1.js",
   "scripts": {
+    "test:ci": "vitest run --coverage",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
