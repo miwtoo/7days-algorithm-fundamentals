@@ -1,0 +1,16 @@
+{
+  "name": "7days-algorithm-fundamentals",
+  "version": "1.0.0",
+  "main": "day1.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
