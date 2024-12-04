@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { add } from '../day1'
+import { add } from '../day0'
 
 test('adds 1 to equal 1', () => {
     expect(add(1)).toBe(1)
