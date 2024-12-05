@@ -3,11 +3,11 @@ import { findDuplicateNumber } from '../day1'
 
 
 
-test('it should be return 3 when [1, 2, 3, 3, 4]', () => {
+test('should identify the duplicated number in a list', () => {
     expect(findDuplicateNumber([1, 2, 3, 3, 4])).toBe(3)
 });
 
 
-test('it should be retrun -1 when it no duplicate', () => {
+test('should return -1 when there are no duplicate numbers in the list', () => {
     expect(findDuplicateNumber([1, 2, 3, 4])).toBe(-1)
 });
